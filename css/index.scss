@@ -1,0 +1,551 @@
+@charset 'utf-8';
+//头部
+//@media screen and (max-width:1200px) {
+//  body{
+//      width: 1300px;
+//  }
+//}
+
+.clearfix:after{
+    clear: both;
+    content: '';
+    display: block;
+    overflow: hidden;
+    height: 0;
+    
+}
+
+//.header{
+////  height: 110px;
+////  background: red;
+//  border-bottom: 10px solid #eee;
+//}
+//
+////banner
+//.container-fluid{
+//  padding: 0;
+//}
+//.banner{
+////  height: 640px;
+//  position: relative;
+//  .tab{
+//      width: 100%;
+////      background: deeppink;
+//      position: absolute;
+//      bottom: -80px;
+//      left: 50%;
+//      margin-left: -50%;
+//      li{
+//          height: 180px;
+//          width: 180px;
+//          border-radius: 6px;
+//          background: #fff;
+//          margin-right: 120px;
+//          box-shadow: 0px 10px 10px -6px #d0cbcb;
+//          .tabImg{
+//              width: 78px;
+//              height: 78px;
+//              border-radius: 4px;
+//              margin:30px auto 10px;
+//              img{
+//                  width: 100%;
+//              }
+//          }
+//          .tabname{
+//              font-size: 32px;
+//          }
+//      }
+//      li:last-child{
+//          margin-right: 0;
+//      }
+//  }
+//
+//   
+//  
+//  
+// 
+//}
+//
+//.main{
+//  
+//  .yxsjBox{
+//      padding-top: 88px;
+//     
+//      .yxsj{
+//          li{
+//              margin-top: 88px;
+//              .name{
+//                  font-size: 18px;
+//                  margin-bottom: 10px;
+//              }
+//              .work{
+//                  font-size: 18px;
+//                  margin-bottom: 30px;
+//              }
+//              .person{
+//                  font-size: 15px;
+//              }
+//          }
+//          
+//      }
+//   }
+//   
+//    .sjrzBox{
+//      padding-top: 88px;
+//     
+//      .sjrz{
+//          li{
+//              margin-top: 88px;
+//              .name{
+//                  font-size: 18px;
+//                  margin-bottom: 10px;
+//              }
+//              .work{
+//                  font-size: 18px;
+//                  margin-bottom: 30px;
+//              }
+//              .person{
+//                  font-size: 15px;
+//              }
+//          }
+//          
+//      }
+//   }
+//    
+//    .companyBox{
+//        margin-top: 200px;
+//        .companyInfo{
+//            font-size: 22px;
+//            .tel{
+//                font-size: 30px;
+//            }
+//        }
+//       .ewm{
+//           font-size: 22px;
+//           li{
+//              float: left; 
+//           }
+//           .ewmLeft{
+//               margin-right: 96px;
+//           }
+//           img{
+//               width: 200px;
+//           }
+//       } 
+//    }
+//   
+//}
+
+@media (min-width: 1200px){
+    .header{
+    //  height: 110px;
+    //  background: red;
+        border-bottom: 10px solid #eee;
+    }
+    
+    //banner
+    .container-fluid{
+        padding: 0;
+    }
+    .banner{
+    //  height: 640px;
+        position: relative;
+        .tab{
+            width: 100%;
+    //      background: deeppink;
+            position: absolute;
+            bottom: -80px;
+            left: 50%;
+            margin-left: -50%;
+            li{
+                height: 180px;
+                width: 180px;
+                border-radius: 6px;
+                background: #fff;
+                margin-right: 120px;
+                box-shadow: 0px 10px 10px -6px #d0cbcb;
+                .tabImg{
+                    width: 78px;
+                    height: 78px;
+                    border-radius: 4px;
+                    margin:30px auto 10px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .tabname{
+                    font-size: 32px;
+                }
+            }
+            li:last-child{
+                margin-right: 0;
+            }
+        }
+    
+         
+        
+        
+       
+    }
+    
+    .main{
+        
+        .yxsjBox{
+            padding-top: 170px;
+           .title{
+               font-size: 42px;
+           }
+            .yxsj{
+                .personImg{
+                        width: 160px;
+                    }
+                li{
+                    margin-top: 88px;
+                    .name{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    .work{
+                        font-size: 18px;
+                        margin-bottom: 30px;
+                    }
+                    .person{
+                        font-size: 15px;
+                    }
+                }
+                
+            }
+         }
+         
+          .sjrzBox{
+            padding-top: 88px;
+           .title{
+               font-size: 42px;
+           }
+            .sjrz{
+                li{
+                    margin-top: 88px;
+                    .personImg{
+                        width: 160px;
+                    }
+                    .name{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    .work{
+                        font-size: 18px;
+                        margin-bottom: 30px;
+                    }
+                    .person{
+                        font-size: 15px;
+                    }
+                }
+                
+            }
+         }
+          
+          .companyBox{
+              margin-top: 200px;
+              .companyInfo{
+                  font-size: 22px;
+                  .tel{
+                      font-size: 30px;
+                  }
+              }
+             .ewm{
+                 font-size: 22px;
+                 text-align: center;
+                 .ewmLeft{
+                    float: left; 
+                 }
+                 .ewmRight{
+                    float: right;
+                 }
+                 img{
+                     width: 200px;
+                 }
+             } 
+          }
+          .footerMsg{
+             color: #b8b8b8;
+         }
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px) { 
+
+     .header{
+    //  height: 110px;
+    //  background: red;
+        border-bottom: 10px solid #eee;
+    }
+    
+    //banner
+    .container-fluid{
+        padding: 0;
+    }
+    .banner{
+    //  height: 640px;
+        position: relative;
+        .tab{
+            width: 100%;
+    //      background: deeppink;
+            position: absolute;
+            bottom: -80px;
+            left: 50%;
+            margin-left: -50%;
+            li{
+                height: 120px;
+                width: 120px;
+                border-radius: 6px;
+                background: #fff;
+                margin-right: 60px;
+                box-shadow: 0px 10px 10px -6px #d0cbcb;
+                .tabImg{
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 4px;
+                    margin:24px auto 10px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .tabname{
+                    font-size: 18px;
+                }
+            }
+            li:last-child{
+                margin-right: 0;
+            }
+        }
+    
+         
+        
+        
+       
+    }
+    
+    .main{
+        
+        .yxsjBox{
+            padding-top: 170px;
+            .title{
+               font-size: 42px;
+           }
+            .yxsj{
+                li{
+                    margin-top: 88px;
+                    .personImg{
+                        width: 160px;
+                    }
+                    .name{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    .work{
+                        font-size: 18px;
+                        margin-bottom: 30px;
+                    }
+                    .person{
+                        font-size: 15px;
+                    }
+                }
+                
+            }
+         }
+         
+          .sjrzBox{
+            padding-top: 88px;
+            .title{
+               font-size: 42px;
+           }
+            .sjrz{
+                li{
+                    margin-top: 88px;
+                    .personImg{
+                        width: 160px;
+                    }
+                    .name{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    .work{
+                        font-size: 18px;
+                        margin-bottom: 30px;
+                    }
+                    .person{
+                        font-size: 15px;
+                    }
+                }
+                
+            }
+         }
+          
+          .companyBox{
+              margin-top: 100px;
+              .companyInfo{
+                  font-size: 16px;
+                  .tel{
+                      font-size: 22px;
+                  }
+              }
+             .ewm{
+                 font-size: 16px;
+                 text-align: center;
+                 .ewmLeft{
+                    float: left; 
+                 }
+                 .ewmRight{
+                    float: right;
+                 }
+                 img{
+                     width: 130px;
+                 }
+             } 
+          }
+          .footerMsg{
+             color: #b8b8b8;
+         }
+    }
+
+}
+
+
+@media screen and(max-width:768px){
+    .header{
+    //  height: 110px;
+    //  background: red;
+        border-bottom: 10px solid #eee;
+        .logo{
+            width: 120px;
+            margin-left: 20px;
+        }
+    }
+    
+    //banner
+    .container-fluid{
+        padding: 0;
+    }
+    .banner{
+    //  height: 640px;
+        position: relative;
+        .tab{
+            width: 100%;
+    //      background: deeppink;
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            margin-left: -50%;
+            li{
+                height: 70px;
+                width: 70px;
+                border-radius: 6px;
+                background: #fff;
+                margin-right: 14px;
+                box-shadow: 0px 10px 10px -6px #d0cbcb;
+                .tabImg{
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 4px;
+                    margin:10px auto 2px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .tabname{
+                    font-size: 12px;
+                }
+            }
+            li:last-child{
+                margin-right: 0;
+            }
+        }
+    
+         
+        
+        
+       
+    }
+    
+    .main{
+        
+        .yxsjBox{
+            padding-top: 88px;
+           .title{
+               font-size: 18px;
+           }
+            .yxsj{
+                li{
+                    margin-top: 44px;
+                    .personImg{
+                        width: 100px;
+                    }
+                    .name{
+                        font-size: 14px;
+                        margin-bottom: 8px;
+                    }
+                    .work{
+                        font-size: 14px;
+                        margin-bottom: 15px;
+                    }
+                    .person{
+                        font-size: 13px;
+                    }
+                }
+                
+            }
+         }
+         
+          .sjrzBox{
+            padding-top: 44px;
+           .title{
+               font-size: 18px;
+           }
+            .sjrz{
+                li{
+                    margin-top: 44px;
+                    .personImg{
+                        width: 100px;
+                    }
+                    .name{
+                        font-size: 14px;
+                        margin-bottom: 8px;
+                    }
+                    .work{
+                        font-size: 14px;
+                        margin-bottom: 15px;
+                    }
+                    .person{
+                        font-size: 12px;
+                    }
+                }
+                
+            }
+         }
+          
+          .companyBox{
+              margin-top: 50px;
+              .companyInfo{
+                  font-size: 14px;
+                  .tel{
+                      font-size: 16px;
+                  }
+              }
+             .ewm{
+                 font-size: 12px;
+                 text-align: center;
+                 .ewmLeft{
+                    float: left; 
+                 }
+                 .ewmRight{
+                    float: right;
+                 }
+                 img{
+                     width: 130px;
+                 }
+             } 
+          }
+         .footerMsg{
+             color: #b8b8b8;
+         }
+    }   
+}

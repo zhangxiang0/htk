@@ -1,0 +1,261 @@
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  overflow: hidden;
+  height: 0; }
+
+@media (min-width: 1200px) {
+  .header {
+    border-bottom: 10px solid #eee; }
+
+  .container-fluid {
+    padding: 0; }
+
+  .banner {
+    position: relative; }
+    .banner .tab {
+      width: 100%;
+      position: absolute;
+      bottom: -80px;
+      left: 50%;
+      margin-left: -50%; }
+      .banner .tab li {
+        height: 180px;
+        width: 180px;
+        border-radius: 6px;
+        background: #fff;
+        margin-right: 120px;
+        box-shadow: 0px 10px 10px -6px #d0cbcb; }
+        .banner .tab li .tabImg {
+          width: 78px;
+          height: 78px;
+          border-radius: 4px;
+          margin: 30px auto 10px; }
+          .banner .tab li .tabImg img {
+            width: 100%; }
+        .banner .tab li .tabname {
+          font-size: 32px; }
+      .banner .tab li:last-child {
+        margin-right: 0; }
+
+  .main .yxsjBox {
+    padding-top: 170px; }
+    .main .yxsjBox .title {
+      font-size: 42px; }
+    .main .yxsjBox .yxsj .personImg {
+      width: 160px; }
+    .main .yxsjBox .yxsj li {
+      margin-top: 88px; }
+      .main .yxsjBox .yxsj li .name {
+        font-size: 18px;
+        margin-bottom: 10px; }
+      .main .yxsjBox .yxsj li .work {
+        font-size: 18px;
+        margin-bottom: 30px; }
+      .main .yxsjBox .yxsj li .person {
+        font-size: 15px; }
+  .main .sjrzBox {
+    padding-top: 88px; }
+    .main .sjrzBox .title {
+      font-size: 42px; }
+    .main .sjrzBox .sjrz li {
+      margin-top: 88px; }
+      .main .sjrzBox .sjrz li .personImg {
+        width: 160px; }
+      .main .sjrzBox .sjrz li .name {
+        font-size: 18px;
+        margin-bottom: 10px; }
+      .main .sjrzBox .sjrz li .work {
+        font-size: 18px;
+        margin-bottom: 30px; }
+      .main .sjrzBox .sjrz li .person {
+        font-size: 15px; }
+  .main .companyBox {
+    margin-top: 200px; }
+    .main .companyBox .companyInfo {
+      font-size: 22px; }
+      .main .companyBox .companyInfo .tel {
+        font-size: 30px; }
+    .main .companyBox .ewm {
+      font-size: 22px;
+      text-align: center; }
+      .main .companyBox .ewm .ewmLeft {
+        float: left; }
+      .main .companyBox .ewm .ewmRight {
+        float: right; }
+      .main .companyBox .ewm img {
+        width: 200px; }
+  .main .footerMsg {
+    color: #b8b8b8; } }
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header {
+    border-bottom: 10px solid #eee; }
+
+  .container-fluid {
+    padding: 0; }
+
+  .banner {
+    position: relative; }
+    .banner .tab {
+      width: 100%;
+      position: absolute;
+      bottom: -80px;
+      left: 50%;
+      margin-left: -50%; }
+      .banner .tab li {
+        height: 120px;
+        width: 120px;
+        border-radius: 6px;
+        background: #fff;
+        margin-right: 60px;
+        box-shadow: 0px 10px 10px -6px #d0cbcb; }
+        .banner .tab li .tabImg {
+          width: 38px;
+          height: 38px;
+          border-radius: 4px;
+          margin: 24px auto 10px; }
+          .banner .tab li .tabImg img {
+            width: 100%; }
+        .banner .tab li .tabname {
+          font-size: 18px; }
+      .banner .tab li:last-child {
+        margin-right: 0; }
+
+  .main .yxsjBox {
+    padding-top: 170px; }
+    .main .yxsjBox .title {
+      font-size: 42px; }
+    .main .yxsjBox .yxsj li {
+      margin-top: 88px; }
+      .main .yxsjBox .yxsj li .personImg {
+        width: 160px; }
+      .main .yxsjBox .yxsj li .name {
+        font-size: 18px;
+        margin-bottom: 10px; }
+      .main .yxsjBox .yxsj li .work {
+        font-size: 18px;
+        margin-bottom: 30px; }
+      .main .yxsjBox .yxsj li .person {
+        font-size: 15px; }
+  .main .sjrzBox {
+    padding-top: 88px; }
+    .main .sjrzBox .title {
+      font-size: 42px; }
+    .main .sjrzBox .sjrz li {
+      margin-top: 88px; }
+      .main .sjrzBox .sjrz li .personImg {
+        width: 160px; }
+      .main .sjrzBox .sjrz li .name {
+        font-size: 18px;
+        margin-bottom: 10px; }
+      .main .sjrzBox .sjrz li .work {
+        font-size: 18px;
+        margin-bottom: 30px; }
+      .main .sjrzBox .sjrz li .person {
+        font-size: 15px; }
+  .main .companyBox {
+    margin-top: 100px; }
+    .main .companyBox .companyInfo {
+      font-size: 16px; }
+      .main .companyBox .companyInfo .tel {
+        font-size: 22px; }
+    .main .companyBox .ewm {
+      font-size: 16px;
+      text-align: center; }
+      .main .companyBox .ewm .ewmLeft {
+        float: left; }
+      .main .companyBox .ewm .ewmRight {
+        float: right; }
+      .main .companyBox .ewm img {
+        width: 130px; }
+  .main .footerMsg {
+    color: #b8b8b8; } }
+@media screen and (max-width: 768px) {
+  .header {
+    border-bottom: 10px solid #eee; }
+    .header .logo {
+      width: 120px;
+      margin-left: 20px; }
+
+  .container-fluid {
+    padding: 0; }
+
+  .banner {
+    position: relative; }
+    .banner .tab {
+      width: 100%;
+      position: absolute;
+      bottom: -40px;
+      left: 50%;
+      margin-left: -50%; }
+      .banner .tab li {
+        height: 70px;
+        width: 70px;
+        border-radius: 6px;
+        background: #fff;
+        margin-right: 14px;
+        box-shadow: 0px 10px 10px -6px #d0cbcb; }
+        .banner .tab li .tabImg {
+          width: 38px;
+          height: 38px;
+          border-radius: 4px;
+          margin: 10px auto 2px; }
+          .banner .tab li .tabImg img {
+            width: 100%; }
+        .banner .tab li .tabname {
+          font-size: 12px; }
+      .banner .tab li:last-child {
+        margin-right: 0; }
+
+  .main .yxsjBox {
+    padding-top: 88px; }
+    .main .yxsjBox .title {
+      font-size: 18px; }
+    .main .yxsjBox .yxsj li {
+      margin-top: 44px; }
+      .main .yxsjBox .yxsj li .personImg {
+        width: 100px; }
+      .main .yxsjBox .yxsj li .name {
+        font-size: 14px;
+        margin-bottom: 8px; }
+      .main .yxsjBox .yxsj li .work {
+        font-size: 14px;
+        margin-bottom: 15px; }
+      .main .yxsjBox .yxsj li .person {
+        font-size: 13px; }
+  .main .sjrzBox {
+    padding-top: 44px; }
+    .main .sjrzBox .title {
+      font-size: 18px; }
+    .main .sjrzBox .sjrz li {
+      margin-top: 44px; }
+      .main .sjrzBox .sjrz li .personImg {
+        width: 100px; }
+      .main .sjrzBox .sjrz li .name {
+        font-size: 14px;
+        margin-bottom: 8px; }
+      .main .sjrzBox .sjrz li .work {
+        font-size: 14px;
+        margin-bottom: 15px; }
+      .main .sjrzBox .sjrz li .person {
+        font-size: 12px; }
+  .main .companyBox {
+    margin-top: 50px; }
+    .main .companyBox .companyInfo {
+      font-size: 14px; }
+      .main .companyBox .companyInfo .tel {
+        font-size: 16px; }
+    .main .companyBox .ewm {
+      font-size: 12px;
+      text-align: center; }
+      .main .companyBox .ewm .ewmLeft {
+        float: left; }
+      .main .companyBox .ewm .ewmRight {
+        float: right; }
+      .main .companyBox .ewm img {
+        width: 130px; }
+  .main .footerMsg {
+    color: #b8b8b8; } }
+
+/*# sourceMappingURL=index.css.map */
